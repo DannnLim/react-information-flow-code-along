@@ -3,7 +3,7 @@ import { getRandomColor } from './randomColorGenerator.js'
 
 class Child extends Component {
   render() {
-
+// console.log()
     return (
       <div onClick={() => this.props.handleColorChange(getRandomColor())}
         className="child"
