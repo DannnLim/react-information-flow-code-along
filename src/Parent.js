@@ -3,7 +3,7 @@ import { getRandomColor } from './randomColorGenerator.js'
 import Child from './Child'
 
 class Parent extends Component {
-
+// cons
   constructor() {
     super()
     this.state = {
